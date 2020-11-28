@@ -1,0 +1,78 @@
+#c-cn {
+width:300px;
+height:200px;
+margin:auto;
+color:#ccc;
+border:15px solid #111;
+outline:1px solid #2c404e;
+outline-offset:-13px;
+}
+
+.t-cn {
+font-size:0px;
+font-weight:900;
+text-transform:uppercase;
+font-family:arial;
+transition: 0.5s;
+text-align:center;
+text-shadow: 1px 1px 1px #2c404e;
+}
+
+#c-cn:hover .t-cn{
+font-size:30px; 
+transition: 0.5s;
+}
+
+
+.i-cn {
+font-size:0px;
+font-weight:400;
+font-family:calibri;
+width:130px;
+line-height:20px;
+text-align:justify;
+text-transform:uppercase;
+transition: 0.5s;
+margin:auto;
+letter-spacing:1px;
+}
+
+#c-cn:hover .i-cn{
+font-size:8px;
+transition: 0.5s;
+}
+
+
+.h-cn {
+width: 0px;
+height:200px;
+background: #2c404ed9;
+transition: 1.0s;
+margin:auto;
+}
+
+#c-cn:hover .h-cn {
+width: 300px;
+height:200px;
+background:#101010d9;
+transition: 1.5s;
+}
+
+#s-icon {
+font-size:40px;
+color:#2c404e;
+text-shadow: 3px 1px 1px #ccc;
+margin:auto;
+padding-top:150px;
+transition: 1.5s;
+display:block;
+margin-left:-120px;
+}
+
+#c-cn:hover #s-icon {color:#ccc;
+text-shadow: 3px 1px 1px #2c404e;
+font-size:40px;
+transition: 1.0s;
+margin-left:130px;
+padding-top:40px;
+}
