@@ -15,16 +15,17 @@ width: 190px;
 }
 
 .h-1 {
-    width: 391px;
+width: 385px;
     height: 120px;
     font-family: arial;
     padding: 10px;
     background: #0c0c0c;
-    border: 5px solid #111;
-    margin-top: 1px!important;
+    outline-offset: -8px;
+    outline: 1px solid #060606;
+    border: 8px solid #0a0a0a;
     margin: auto;
     color: #ccc;
-    font-size:9px;
+    font-size: 9px;
     letter-spacing: 1px;
     overflow: auto;
 }
