@@ -17,7 +17,7 @@ width: 190px;
 .h-1 {
 width: 385px;
     height: 120px;
-    font-family: arial;
+    font-family: calibri;
     padding: 10px;
     background: #0c0c0c;
     outline-offset: -8px;
@@ -25,8 +25,9 @@ width: 385px;
     border: 8px solid #0a0a0a;
     margin: auto;
     color: #ccc;
-    font-size: 9px;
-    letter-spacing: 1px;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0px;
     overflow: auto;
 }
 
