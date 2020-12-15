@@ -11,24 +11,24 @@
 .b-kit{
 margin-top: 130px!important;
     text-align: center;
-    width: 100px;
-  height:0px;
-  float:right;
-  padding:15px;
+    width: 115px;
+    height: 0px;
+    float: right;
+    padding: 15px;
     transition: 0.6s;
 }
 
 
 .s-kit{
-font-family: moonlite solid;
+    font-family: moonlite solid;
     font-size: 40px;
     line-height: 30px;
-    letter-spacing:3px;
+    letter-spacing: 3px;
     color: #000;
-font-weight: 900;
+    font-weight: 900;
     transition: 1.5s;
     text-transform: uppercase;
-    text-shadow: 2px 0px 0px #648527;  
+    text-shadow: 2px 0px 0px #648527;
 }
 
 #somnus:hover .s-kit{
@@ -41,14 +41,14 @@ font-weight: 900;
 }
 
 .t-kit{  
- line-height: 7px;
+line-height: 7px;
     font-size: 8px;
     font-family: calibri;
     text-transform: uppercase;
     color: #000000;
     width: 42px;
     font-weight: 900;
-    float: right;
+    margin-left: 69px;
     text-align: justify;
     letter-spacing: 1px;
     transition: 0.5s;
