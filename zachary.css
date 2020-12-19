@@ -1,0 +1,117 @@
+.statzach {
+vertical-align: top;
+    display: inline-block;
+    width: 147px;
+    margin: 1px;
+    height: 140px;
+    padding: 20px;
+    background: #000;
+    border: 1px solid #000;
+}
+
+psz {
+width:19px;
+    display: inline-block;
+    padding: 7px 5px;
+    text-align: center;
+    margin-top:2px;
+    background: #0a0a0a;
+    color: #113129;
+    font-weight: 900;
+    font-family: arial;
+    font-size: 8px;
+  
+}
+
+pvh {margin-top:2px;
+    height: 13px;
+    font-size: 9px;
+    background: #080808c7;
+    border: 1px solid #0a0a0a;
+    font-family: calibri;
+    letter-spacing: 2px;
+    line-height: 13px;
+    display: inline-table;
+    width: 103px;
+    color: #c3c2c2c7;
+    padding: 5px;
+    vertical-align: top;
+    margin-left: 1px;
+    text-transform: uppercase;
+}
+
+psh {
+height: 13px;
+    font-size: 9px;
+    background: #080808c7;
+    border: 1px solid #0a0a0a;
+    font-family: calibri;
+    letter-spacing: 2px;
+    line-height: 13px;
+    display: inline-table;
+    width: 30px;
+    color: #c3c2c2c7;
+    padding:5px;
+    vertical-align: top;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+resulta2 {
+width: 129px;
+    height: 16px;
+    padding: 7px;
+    color: #c3c2c2ad;
+    margin-top:3px;
+    text-transform: uppercase;
+    font-size: 7px;
+    display: table-caption;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: arial;
+    border: 1px solid #0a0a0a;
+    background: #060606;
+  
+}
+
+.pjz {
+    background: #060606;
+    color: #c3c2c2ad;
+    border-bottom: 1px solid #0a0a0a;
+    font-size: 7px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: arial;
+    padding: 12px;
+    line-height: 7px;
+    margin: -21px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#izach {
+    color: #0d3129;
+    font-size: 8px;
+}
+
+.zachdatos {
+     color: #6d6c6d;
+    font-size: 11px;
+    font-family: Arial;
+    text-align: justify;
+      width: 301px;
+  padding: 40px;
+    background: #000;
+  
+}
+
+.zachdatos strong {
+text-transform: uppercase;
+    color: #6d6c6d;
+    font-weight: 700;
+    font-size: 8px;
+    letter-spacing: 1px;
+    padding: 5px;
+}
