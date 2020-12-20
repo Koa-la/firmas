@@ -1,7 +1,7 @@
 .statzach {
 vertical-align: top;
     display: inline-block;
-    width: 147px;
+    width: 168px;
     margin: 1px;
     height: 140px;
     padding: 20px;
@@ -12,7 +12,7 @@ vertical-align: top;
 psz {
 width:19px;
     display: inline-block;
-    padding: 7px 5px;
+    padding: 3px 5px;
     text-align: center;
     margin-top:2px;
     background: #0a0a0a;
@@ -25,14 +25,14 @@ width:19px;
 
 pvh {margin-top:2px;
     height: 13px;
-    font-size: 9px;
+    font-size: 10px;
     background: #080808c7;
     border: 1px solid #0a0a0a;
     font-family: calibri;
     letter-spacing: 2px;
     line-height: 13px;
     display: inline-table;
-    width: 103px;
+    width: 125px;
     color: #c3c2c2c7;
     padding: 5px;
     vertical-align: top;
@@ -42,14 +42,14 @@ pvh {margin-top:2px;
 
 psh {
 height: 13px;
-    font-size: 9px;
+    font-size: 10px;
     background: #080808c7;
     border: 1px solid #0a0a0a;
     font-family: calibri;
     letter-spacing: 2px;
     line-height: 13px;
     display: inline-table;
-    width: 30px;
+    width:41px;
     color: #c3c2c2c7;
     padding:5px;
     vertical-align: top;
@@ -60,30 +60,31 @@ height: 13px;
 }
 
 resulta2 {
-width: 129px;
-    height: 16px;
+width: 151px;
+    height: 15px;
     padding: 7px;
     color: #c3c2c2ad;
-    margin-top:3px;
+    margin-top: 3px;
     text-transform: uppercase;
     font-size: 7px;
     display: table-caption;
     text-align: center;
+    line-height: 8px;
     letter-spacing: 1px;
     font-family: arial;
     border: 1px solid #0a0a0a;
     background: #060606;
-  
 }
 
 .pjz {
-    background: #060606;
-    color: #c3c2c2ad;
+    background: #000000;
+    color: #bababa;
     border-bottom: 1px solid #0a0a0a;
-    font-size: 7px;
-    letter-spacing: 1px;
+    font-size: 9px;
+    letter-spacing: 0.5px;
     text-align: center;
     font-family: arial;
+    font-weight: 900;
     padding: 12px;
     line-height: 7px;
     margin: -21px;
@@ -97,21 +98,30 @@ width: 129px;
 }
 
 .zachdatos {
-     color: #6d6c6d;
+color: #bababa;
     font-size: 11px;
     font-family: Arial;
     text-align: justify;
-      width: 301px;
-  padding: 40px;
+    width: 343px;
+    letter-spacing: 0px;
+    padding: 40px;
     background: #000;
-  
 }
 
 .zachdatos strong {
 text-transform: uppercase;
-    color: #6d6c6d;
-    font-weight: 700;
+    color: #bababa;
+    font-weight: 900;
     font-size: 8px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    padding: 5px;
+}
+
+.zachdatos i {
+    text-transform: uppercase;
+    color: #0f382e;
+    font-weight: 700;
+    font-size: 7px;
+    letter-spacing: 0px;
     padding: 5px;
 }
