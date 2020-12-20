@@ -27,20 +27,32 @@ width: 190px;
     margin: auto;
     color: #ccc;
     font-size: 10px;
-    letter-spacing: 1px;
     overflow: auto;
 }
+
+
+.hab1 strong{ 
+  color: #9f827f;
+    height: 20px;
+    text-transform: uppercase;
+    font-family: calibri;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    width: 90px;
+    text-align: center;
+    font-size: 9px;
+}
+
 hab2{  
-  margin-top:25px;
-    color: #fff;
-  height:20px;
+    color: #ccc;
+    height: 20px;
     text-transform: uppercase;
     font-family: arial;
     font-weight: 900;
-  width:90px;
-  text-align:center;
-  font-size:12px;
-   
+    letter-spacing: 0.5px;
+    width: 90px;
+    text-align: center;
+    font-size: 10px;
 }
 
 
