@@ -1,0 +1,102 @@
+.sst {
+    color: #fff;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 13px;
+    margin: auto;
+    text-align: Center;
+    font-family: arial;
+    width: 180px;
+    min-height: 170px;
+    padding: 15px;
+    background: #060606;
+}
+.sc1 {
+text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 9px;
+    padding: 3px;
+    font-weight: 700;
+    display: inline-block;
+    min-width: 83px;
+    height: 25px;
+    margin-top: 1px!important;
+    margin-left: 1px;
+    font-family: arial;
+    vertical-align: top;
+    color: #dedddd;
+    background: #0c0c0c;
+    line-height: 25px;
+}
+
+dt1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 9px;
+    padding: 5px;
+    font-weight: 300;
+    display: block;
+    margin-left: 1px!important;
+    margin-top: 1px;
+    font-family: arial;
+    color: #dedddd;
+    width: 167px;
+    border: 1px solid #585428;
+    background: #585428;
+    line-height: 9px;
+}
+
+
+.sih {
+    color: #dedddd;
+    font-size: 13px;
+    margin: auto;
+    text-align: Center;
+    font-family: arial;
+    margin-top: 1px;
+    width: 401px;
+    height: 110px;
+    padding: 10px;
+    background: #060606;
+}
+
+.tab-scott {
+    background: #060606;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px auto auto;
+    outline-offset: 7px;
+    padding: 30px;
+    text-align: justify;
+    width: 360px;
+}
+
+.sub-scott {
+    text-align: center;
+    font-family: calibri;
+    font-size: 9px;
+    text-transform: uppercase;
+    margin: 16px auto 20px;
+    letter-spacing: 1.5px;
+    border-top: 1px solid #908a4a;
+    padding: 0px;
+}
+
+.tituloscott:first-letter {color: #908a4a;}.tituloscott {margin-top: 9px;line-height: 0px;font-family: arial;font-size: 18px;text-transform:uppercase; text-align: Center;font-weight: 900; color: #fff;}.scott strong {color: #67592f!important;font-style: italic;}
+
+ds1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 8px;
+    padding: 2px;
+    margin-bottom: 5px;
+    margin-top: 1px;
+    margin-left: 1px;
+    font-family: arial;
+    border-top: 1px solid #585428;
+    color: #dedddd;
+    line-height: 10px;
+    text-align: center;
+    display: block;
+}
