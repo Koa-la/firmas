@@ -66,7 +66,7 @@ width: 151px;
     color: #c3c2c2ad;
     margin-top: 3px;
     text-transform: uppercase;
-    font-size: 7px;
+    font-size: 8px;
     display: table-caption;
     text-align: center;
     line-height: 8px;
@@ -102,26 +102,52 @@ color: #bababa;
     font-size: 11px;
     font-family: Arial;
     text-align: justify;
-    width: 343px;
+    width: 383px;
+    line-height: 14px;
     letter-spacing: 0px;
-    padding: 40px;
+    padding: 20px;
     background: #000;
 }
 
 .zachdatos strong {
-text-transform: uppercase;
+    text-transform: uppercase;
     color: #bababa;
     font-weight: 900;
-    font-size: 8px;
+    font-size: 10px;
     letter-spacing: 0.5px;
     padding: 5px;
+line-height: 17px;
 }
 
 .zachdatos i {
     text-transform: uppercase;
-    color: #0f382e;
-    font-weight: 700;
-    font-size: 7px;
-    letter-spacing: 0px;
-    padding: 5px;
+    color: #0f3e33;
+    font-weight: 900;
+    font-size: 9px;
+    font-style: inherit;
+    padding: 5px;}
+
+
+.z{
+    background: #000000;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: 400;
+    margin: auto;
+    outline-offset: 7px;
+    padding: 30px;
+    text-align: justify;
+    width: 360px;
 }
+ .iconz i{color:#0d3129!important;} .zk13 strong{color:#0d3129!important;}
+
+
+.zk13{
+    text-align: justify;
+    line-height: 15px;
+    font-size: 13px;
+    padding: 0 10px;
+    font-family: arial;
+}
+
+.zk13 strong{color:#0d3129!important;}
