@@ -1,13 +1,15 @@
+@font-face {font-family: 'Breathing'; src: url('http://dl.dropbox.com/s/tds99031d0nlxrb/Breathing.ttf?dl=0') format('opentype');}
+
 #silje-f{
-  width:300px;
-  height:200px;
-  outline-offset:-13px;
-  border:15px solid #141414;
-  margin:auto;
- Overflow: hidden;
-Position: relative;
-  transition: 0.6s;
-  outline: 1px solid #738678;
+    width: 300px;
+    height: 200px;
+    outline-offset: -9px;
+    border: 15px solid #080808;
+    margin: auto;
+    Overflow: hidden;
+    Position: relative;
+    transition: 0.6s;
+    outline: 1px solid #424040;
 }
 
 .bj-img {
@@ -28,34 +30,39 @@ margin-top:-70px;
 
 
 .b-j2 {
-    font-size:50px;
+    font-size: 37px;
     text-align: center;
     font-weight: 400;
     letter-spacing: 0px;
-  text-transform:lowercase;
-    color: #e2e2e2;
-  margin-top:20px;
-    font-family:Breathing;
-  margin-bottom:-15px;
+    text-transform: lowercase;
+    color: #c5c5c5;
+    margin-top: -12px;
+    font-family: Breathing;
+    margin-bottom: -45px;
 }
 
 #b-j1 {
-    font-size: 50px;
-  text-align:center;
+font-size: 36px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
     margin-top: 51px;
-    line-height: 1px;
+    text-shadow: 2px 0 1px #4a4444;
+    padding: 1px;
+    margin-left: 34px;
+    line-height: 36px;
     animation-name: koa;
-  animation-duration: 10s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  -webkit-animation-name: koa;
-  -webkit-animation-duration: 10s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: koa;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
 }
 
 .b-j{
-width: 150px;
+width: 105px;
     text-align: justify;
     display: grid;
     height: 200px;
