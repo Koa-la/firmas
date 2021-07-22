@@ -1,0 +1,122 @@
+
+#c-scott {
+  width:280px;
+  height:225px;
+  margin:auto;
+  border: 10px solid #121212;
+  overflow: hidden;
+}
+
+.b-scott{
+    background: #585428;    
+    position: relative;
+    top: -225px;
+    height: 223px;
+    padding: 1px 0;
+    width:220px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+#c-scott:hover .b-scott {
+  top: 0;
+  background:#000000ad;
+  transition: .5s .5s ease-in-out;
+  -webkit-transition: .5s .5s ease-in-out;  
+}
+
+.tri-scott {
+     height: 25px;
+    padding: 15px;
+    width: 25px;
+    margin: -200px auto 30px;
+  border:1px solid #585428;
+    border-radius: 50%;
+}
+
+#c-scott:hover .tri-scott {
+  margin-top:30px;
+  transition: 2s .2s;
+ padding:16px;
+}
+
+
+
+
+.t-scott {  
+    font-size: 0px;
+    line-height: 9px;
+    font-family: calibri;
+    text-transform: uppercase;
+    color: #ccc;
+    padding: 5px;
+    font-weight:100;
+    text-align: justify;
+    width: 0px;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+#c-scott:hover .t-scott {
+    transition: 1.5s;
+    font-size: 8px;
+    width: 150px;
+}
+
+
+.cscott{
+  width:30px;
+  height:200px;
+  background:#000;
+  padding:15px;
+   transition:0.5s;
+  float:right;
+}
+#c-scott:hover .cscott {
+  background:#585428;
+  margin-top:-225px;
+    transition: .5s .5s ease-in-out;
+  -webkit-transition: .5s .5s ease-in-out; 
+}
+
+#scotticon{
+  font-size: 30px;
+  color:#585428;
+  display: inline-block;
+  transition-duration: 0.5s;
+  transform: rotate(-25deg);
+  animation-name:scott;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name:scott;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.txt-scott{
+  text-align:center;
+  margin:5px;
+  font-size:25px;
+  font-weight:900;
+  color:#ccc;
+  font-family:arial;
+  text-transform:uppercase;
+  transform: rotate(90deg);
+}
+
+@keyframes scott {
+   0% {transform: rotate(0deg);}
+  25% {transform: rotate(25deg);}
+  50% {transform: rotate(55deg);}
+   75% {transform: rotate(75deg);}
+  100% {transform: rotate(95deg);}
+  }
+@-webkit-keyframes scott {
+   0% {transform: rotate(0deg);}
+  25% {border:1px solid #585428;  transform: rotate(25deg);}
+  50% { border:1px solid #585428; transform: rotate(55deg);}
+   75% { border:1px solid #585428; transform: rotate(75deg);}
+  100% {border:1px solid #585428;  transform: rotate(95deg);}
+}
+
