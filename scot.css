@@ -80,6 +80,7 @@
 }
 
 #scotticon{
+  margin: -2px;
   font-size: 30px;
   color:#585428;
   display: inline-block;
@@ -95,14 +96,19 @@
 }
 
 .txt-scott{
-  text-align:center;
-  margin:5px;
-  font-size:25px;
-  font-weight:900;
-  color:#ccc;
-  font-family:arial;
-  text-transform:uppercase;
-  transform: rotate(90deg);
+width: 200px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    color: #ccc;
+    margin-top: 88px;
+    letter-spacing: 2px;
+    margin-left: -83px;
+    font-family: arial;
+    text-transform: uppercase;
+    transform: rotate(
+91deg
+);
 }
 
 @keyframes scott {
