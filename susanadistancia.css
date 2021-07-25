@@ -1,0 +1,103 @@
+
+#c-susan {
+  width:300px;
+  height:230px;
+  margin:auto;
+  border: 10px solid #121212;
+  outline:1px solid #431416de;
+  outline-offset:-9px;
+  overflow: hidden;
+}
+
+.b-susan{
+    background:#431416de;
+    position: relative;
+    top:0px;
+  margin-left:-300px;
+    height: 150px;
+    padding: 1px 0;
+    width:300px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+#c-susan:hover .b-susan {
+ 
+  margin-left:0px;
+  background:#000000ad;
+  transition: .5s .5s ease-in-out;
+  -webkit-transition: .5s .5s ease-in-out;  
+}
+
+
+
+.csusan{
+  width:260px;
+  height:40px;
+  background:#000;
+  padding:20px;
+   transition:0.5s;
+  line-height:10px;
+  float:right;
+  margin-right:-300px;
+  margin-top:0px;
+}
+#c-susan:hover .csusan {
+  background: #431416de;
+  margin-right:0px;
+    transition: .5s .5s ease-in-out;
+  -webkit-transition: .5s .5s ease-in-out; 
+}
+.txt-susan{
+  text-align:justify;
+  margin:5px;
+  font-size:8px;
+  color:#ccc;
+  letter-spacing:1px;
+  line-height:9px;
+  font-family:calibri;
+  text-transform:uppercase;
+}
+
+.tri-susan {
+ animation-name:atalante;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name:atalante;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+    height: 25px;
+    padding: 15px;
+  border:2px solid #ccc;
+  border-radius:50%;
+  opacity:1;
+    width: 25px;
+    margin: -200px auto 30px;
+  font-size:30px;
+  color:#ccc;
+  font-family:arial;
+  font-weight:900;
+  line-height:25px;
+}
+
+#c-susan:hover .tri-susan {
+  padding:20px;
+  margin-top:30px;
+     transition: 1s 1s ease-in-out;
+  -webkit-transition: 1s 1s ease-in-out; 
+}
+
+
+@keyframes atalante {
+   0% { border-top: 2px solid #431416; }
+  25% { border-right: 2px solid  #431416; }
+  50% { border-bottom: 2px solid  #431416; }
+   100% { border-left: 2px solid #431416; }
+  }
+@-webkit-keyframes atalante {
+   0% { border-top: 2px solid #431416; }
+  25% { border-right: 2px solid  #431416; }
+  50% { border-bottom: 2px solid  #431416; }
+   100% { border-left: 2px solid #431416; }
+  }
