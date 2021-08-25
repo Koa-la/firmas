@@ -73,16 +73,16 @@
    0% {filter: blur(0px);}
   10% {filter: blur(0px);}
   25%  {filter: blur(1px);margin-left:3px;}
-  50%  {filter: blur(3px);margin-right:3px;}
-  75%  {filter: blur(2px);margin-left:3px;}
-  100%  {filter: blur(1px);}
+  50%  {filter: blur(2px);margin-right:3px;}
+  75%  {filter: blur(1px);margin-left:3px;}
+  100%  {filter: blur(0px);}
   }
 @-webkit-keyframes kaleb {
    0% {filter: blur(0px);}
   10% {filter: blur(0px);}
   25%  {filter: blur(1px);margin-left:3px;}
-  50%  {filter: blur(3px);margin-right:3px;}
-  75%  {filter: blur(2px);margin-left:3px;}
-  100%  {filter: blur(1px);}
+  50%  {filter: blur(2px);margin-right:3px;}
+  75%  {filter: blur(1px);margin-left:3px;}
+  100%  {filter: blur(0px);}
 }
 
