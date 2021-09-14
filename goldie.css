@@ -27,7 +27,7 @@
 #golden:hover .goldie {
   transition: 1s ease-in-out;
     -webkit-transition: 1s ease-in-out;
-  margin-top:0px;
+  margin-top:10px;
   background:#bf854dcc;
 }
 
