@@ -61,7 +61,7 @@ dt1 {
 }
 
 .tab-scott {
-    background: #0a0a0a;
+background: #0a0a0a;
     font-family: arial;
     font-size: 13px;
     font-weight: 400;
@@ -69,17 +69,16 @@ dt1 {
     outline-offset: 7px;
     padding: 30px;
     text-align: justify;
-    width: 360px;
+    width: 400px;
 }
 
 .sub-scott {
-    text-align: center;
+text-align: center;
     font-family: calibri;
     font-size: 9px;
     text-transform: uppercase;
-    margin: 16px auto 20px;
+    margin: 9px auto 20px;
     letter-spacing: 1.5px;
-    border-top: 1px solid #908a4a;
     padding: 0px;
 }
 
