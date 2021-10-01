@@ -6,26 +6,25 @@
     margin: auto;
     text-align: Center;
     font-family: arial;
-    width: 180px;
+    width: 200px;
     min-height: 170px;
     padding: 15px;
     background: #0a0a0a;
 }
 .sc1 {
 text-transform: uppercase;
-    letter-spacing: 1px;
     font-size: 9px;
-    padding: 3px;
+    padding: 2px;
     font-weight: 700;
     display: inline-block;
-    min-width: 83px;
+    min-width: 41px;
     height: 25px;
     margin-top: 1px!important;
-    margin-left: 1px;
+    margin-right: 1px;
     font-family: arial;
     vertical-align: top;
     color: #dedddd;
-    background: #0c0c0c;
+    background: #121212;
     line-height: 25px;
 }
 
