@@ -1,0 +1,22 @@
+.coral{ font-weight: 400;
+    color: #ccc;
+  text-shadow: 3px 1px 0 #BCD5EE;
+    font-size: 90px;
+    text-align: center;
+}
+@font-face { font-family: 'Alexander Lettering'; src: url('https://Koa-la.github.io/firmas/Alexander%20Lettering.ttf'); }
+
+#ic {
+    color: #bcd8f2;
+}
+
+.bc{
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid #bcd8f2;
+    padding: 10px;
+}
