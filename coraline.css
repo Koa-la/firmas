@@ -15,16 +15,16 @@ height:220px;
 }
 
 .txt-cora {
-margin-top: -120px;
+margin-top: -30px;
     font-weight: 400;
     color: #fff;
-  text-shadow: 3px 1px 0 #BCD5EE;
+    text-shadow: 3px 1px 0 #bcd5ee;
     font-size: 100px;
     text-align: center;
     transition: 2s ease-in-out;
     font-family: Alexander Lettering;
     transition: 2s ease-in-out;
-    -webkit-transition:2s ease-in-out;
+    -webkit-transition: 2s ease-in-out;
 }
 
 @font-face { font-family: 'Alexander Lettering'; src: url('https://Koa-la.github.io/firmas/Alexander%20Lettering.ttf'); }
@@ -36,7 +36,7 @@ margin-top: -120px;
   font-size: 110px;
    transition: 2s ease-in-out;
    -webkit-transition: 2s ease-in-out; 
-  margin-top: -130px;
+  margin-top: -40px;
 }
 
 #f-coraline:hover .txt-cora1 {
@@ -52,7 +52,7 @@ margin-top: -120px;
     color: #fff;
   margin-left:400px;
   width:70px;
-  height:120px;
+  height:220px;
   padding-top:100px!important;
     font-size:8px;
   line-height:10px;
