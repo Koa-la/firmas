@@ -1,0 +1,99 @@
+#f-coraline {
+  width:300px;
+  height:220px;
+  margin:auto;
+    overflow: hidden;
+  border:10px solid #181818;
+}
+
+.img-cora {
+  border:1px solid #ffffff00;
+width:300px;
+height:220px;
+   transition: 0.5s ease-in-out;
+    -webkit-transition: 1.5s ease-in-out;
+}
+
+.txt-cora {
+margin-top: -120px;
+    font-weight: 400;
+    color: #fff;
+  text-shadow: 3px 1px 0 #BCD5EE;
+    font-size: 100px;
+    text-align: center;
+    transition: 2s ease-in-out;
+    font-family: Alexander Lettering;
+    transition: 2s ease-in-out;
+    -webkit-transition:2s ease-in-out;
+}
+
+@font-face { font-family: 'Alexander Lettering'; src: url('https://Koa-la.github.io/firmas/Alexander%20Lettering.ttf'); }
+
+#f-coraline:hover .txt-cora {
+  margin-left:50px;
+  text-shadow: 3px 1px 0 #A397D0;
+  color:#fff;
+  font-size: 110px;
+   transition: 2s ease-in-out;
+   -webkit-transition: 2s ease-in-out; 
+  margin-top: -130px;
+}
+
+#f-coraline:hover .txt-cora1 {
+  margin-left:210px;
+   transition: 2s ease-in-out;
+   -webkit-transition: 2s ease-in-out; 
+}
+
+
+.txt-cora1 {  transition: 2s ease-in-out;
+    -webkit-transition:2s ease-in-out;
+    font-weight: 400;
+    color: #fff;
+  margin-left:400px;
+  width:70px;
+  height:120px;
+  padding-top:100px!important;
+    font-size:8px;
+  line-height:10px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+ padding:10px;
+    text-align: justify;
+    transition: 2s ease-in-out;
+    font-family:calibri;
+   animation-name:cora;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name:cora;
+  -webkit-animation-duration:10s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
+@keyframes cora {    
+0% {background-color: #8799d34d;
+background-image: linear-gradient(0deg, #8799d34d 0%, #98e3eb4d 52%, #a198eb4d 100%);}
+25% {background-color: #8799d34d;
+background-image: linear-gradient(90deg,  #8799d34d 0%, #98e3eb4d 52%, #a198eb4d 100%);}
+50%{background-color: #8799d34d;
+background-image: linear-gradient(180deg,  #8799d34d 0%, #98e3eb4d 52%, #a198eb4d 100%);}
+75% {background-color: #8799d34d;
+background-image: linear-gradient(2680deg,  #8799d34d 0%, #98e3eb4d 52%, #a198eb4d 100%);}
+100% {background-color: #8799d34d;
+background-image: linear-gradient(360deg,  #8799d34d 0%, #98e3eb4d 52%, #a198eb4d 100%);
+   }}
+
+@keyframes cora {    
+0% {background-color: #8799d34d;
+background-image: linear-gradient(0deg, #8799d34d 0%, #98e3eb4d 52%, #a198eb4d 100%);}
+25% {background-color: #8799d34d;
+background-image: linear-gradient(90deg,  #8799d34d 0%, #98e3eb4d 52%, #a198eb4d 100%);}
+50%{background-color: #8799d34d;
+background-image: linear-gradient(180deg,  #8799d34d 0%, #98e3eb4d 52%, #a198eb4d 100%);}
+75% {background-color: #8799d34d;
+background-image: linear-gradient(2680deg,  #8799d34d 0%, #98e3eb4d 52%, #a198eb4d 100%);}
+100% {background-color: #8799d34d;
+background-image: linear-gradient(360deg,  #8799d34d 0%, #98e3eb4d 52%, #a198eb4d 100%);
+   }}
