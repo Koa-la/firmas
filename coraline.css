@@ -15,7 +15,7 @@ height:220px;
 }
 
 .txt-cora {
-margin-top: -130px;
+margin-top: -200px;
     font-weight: 400;
     color: #fff;
     text-shadow: 3px 1px 0 #bcd5ee;
@@ -36,7 +36,7 @@ margin-top: -130px;
   font-size: 110px;
    transition: 2s ease-in-out;
    -webkit-transition: 2s ease-in-out; 
-  margin-top: -140px;
+  margin-top: -210px;
 }
 
 #f-coraline:hover .txt-cora1 {
