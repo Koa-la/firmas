@@ -150,3 +150,35 @@ line-height: 17px;
 }
 
 .zk13 strong{color:#0d3129!important;}
+
+
+{
+.zacksub{
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}
+
+.textozack{
+    text-align: justify;
+    line-height: 15px;
+    font-size: 14px;
+}
+    
+    .zack1 {
+    font-size: 16px;
+    font-weight: 900;
+    font-family: arial;
+    text-transform: uppercase;
+}
+    
+    .textozack::first-letter{
+  font-size: 16px;
+    font-weight: 900;
+    font-family: arial;
+    text-transform: uppercase;
+    color: #0d2c25;
+}
