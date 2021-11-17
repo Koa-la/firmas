@@ -13,15 +13,15 @@
 }
 .sc1 {
 text-transform: uppercase;
-    font-size: 9px;
+    font-size: 11px;
     padding: 2px;
     font-weight: 700;
     display: inline-block;
-    min-width: 41px;
-    height: 25px;
+    min-width: 83px;
+    height: 29px;
     margin-top: 1px!important;
     margin-right: 1px;
-    font-family: arial;
+    font-family: calibri;
     vertical-align: top;
     color: #dedddd;
     background: #121212;
@@ -94,9 +94,10 @@ text-align: center;
 .scott strong {color: #67592f!important;font-style: italic;}
 .s11:first-letter {color: #908a4a;}
 .s11 {color: #dedddd;
- font-family: arial;
- font-weight:900;
- font-size: 11px;}
+    font-family: arial;
+    font-weight: 900;
+    font-size: 11px;
+    text-transform: uppercase;}
 
 ds1 {
  text-transform: uppercase;
@@ -123,12 +124,12 @@ ds1 {
 
 
 .shabilidades {
-    color: #d0d0d0;
-    width: 189px;
+color: #d0d0d0;
+    width: 191px;
     height: 92px;
     line-height: 10px;
     font-size: 10px;
-    padding: 10px;
+    padding: 6px;
     overflow: auto;
     text-align: justify;
 }
