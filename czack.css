@@ -1,0 +1,81 @@
+#conaill-f {
+    width: 300px;
+    height: 200px;
+    background: url(https://i.imgur.com/H0wQSq0.png);
+    border: 12px solid #0a0a0a;
+    outline: 1px solid #0d3129;
+    outline-offset: -10px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.conaill-i {
+    width: 300px;
+    height: 200px;
+    transition: 1s linear;
+}
+#conaill-f:hover .conaill-i {
+    backdrop-filter: grayscale(1);
+}
+.b-nail {
+    width: 0px;
+    height: 0px;
+    border-bottom: 500px solid rgb(4 4 4 / 55%);
+    border-left: 500px solid transparent;
+    border-right: 500px solid transparent;
+    border-top: 500px solid transparent;
+    transform: rotate(-135deg);
+    position: relative;
+    right: 200px;
+    bottom: 290px;
+    transition: 0.3s linear;
+}
+#conaill-f:hover .b-nail {
+    right: 200px;
+    transform: rotate(-225deg);
+    transition: 0.3s linear;
+}
+.x-nail {
+    position: relative;
+    left: -159px;
+    top: 75px;
+    width: 195px;
+    height: 40px;
+    transition: 1s 1s linear;
+    transform: rotate(135deg);
+}
+#conaill-f:hover .x-nail {
+    transform: rotate(135deg);
+    transition: 1s linear;
+}
+.t1-nail {
+    font-size: 0px;
+    line-height: 27px;
+    color: #ccc;
+    text-shadow: 3px 1px 0px #1d5245;
+    text-align: center;
+    font-weight: 900;
+    font-family: arial;
+    display: inline-block;
+    transition-duration: 1s;
+    text-transform: uppercase;
+}
+#conaill-f:hover .t1-nail {
+    font-size: 35px;
+    transition: 0s linear;
+}
+.t-nail {
+    font-size: 0px;
+    line-height: 7px;
+    font-family: calibri;
+    text-transform: uppercase;
+    color: #ccc;
+    font-weight: 100;
+    text-align: justify;
+    width: 195px;
+    letter-spacing: 1px;
+}
+#conaill-f:hover .t-nail {
+    font-size: 8px;
+    transition: 0s linear;
+}
