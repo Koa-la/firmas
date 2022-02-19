@@ -29,3 +29,13 @@ color:#908299;
   line-height: 1;
   margin-right: .6rem;
 }
+
+.hehe {
+    border-top: 2px solid var(--color-acento);
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 7px;
+    text-align: center;
+    margin-top: 15px;
+}
