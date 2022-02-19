@@ -39,3 +39,5 @@ color:#908299;
     text-align: center;
     margin-top: 15px;
 }
+
+.bf1.hoe { --color-acento: #908299;} .bf1.hoe strong {color: var(--color-acento);}
