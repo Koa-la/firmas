@@ -9,7 +9,7 @@
 }
 
 .t-hoe::first-letter{
-color:#908299;
+color:#7a6f82;
 }
 
 .texto-bh {
@@ -21,7 +21,7 @@ color:#908299;
 }
 
 .texto-bh::first-letter{
-color:#908299;
+color:#7a6f82;
   font-size:50px;
   text-transform:uppercase;
   font-weight:900;
@@ -40,4 +40,4 @@ color:#908299;
     margin-top: 15px;
 }
 
-.bf1.hoe { --color-acento: #908299;} .bf1.hoe strong {color: var(--color-acento);}
+.bf1.hoe { --color-acento: #7a6f82;} .bf1.hoe strong {color: var(--color-acento);}
