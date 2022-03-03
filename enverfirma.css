@@ -1,0 +1,67 @@
+#enver-f {
+    width: 270px;
+    height: 240px;
+    margin: auto;
+    overflow: hidden;
+    border-top: 10px solid #080909;
+    border-bottom: 10px solid #080909;
+}
+.ver-img {
+    outline: 1px solid #3e1112;
+    outline-offset: -13px;
+    width: 270px;
+    height: 220px;
+}
+.v-er2 {
+    text-shadow: 2px 0px 0px #3e1112;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: #0000008a;
+    position: relative;
+    top: -110px;
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #e2e2e2;
+    font-family: arial;
+    text-align: center;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+}
+#enver-f:hover .v-er2 {
+    top: 0px;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+}
+.v-er2 div {margin-bottom: 20px;}
+.v-er {
+    border-top: 3px solid #3e1112;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #5616178a;
+    position: relative;
+    top: 110px;
+    color: #ccc;
+    line-height: 8px;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-family: calibri;
+    text-align: justify;
+    letter-spacing: 1px;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+}
+#enver-f:hover .v-er {
+    top: 0px;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+}
+.enver1 {
+    margin-top: 20px;
+    width: 100px;
+}
