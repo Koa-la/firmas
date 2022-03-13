@@ -1,0 +1,66 @@
+#f-coraline {
+  width:280px;
+  height:200px;
+  margin:auto;
+  overflow: hidden;  
+  border-bottom:10px solid #181818;
+}
+
+.img-cora {border-top:1px solid #181818;
+width:280px;
+height:200px;
+   transition: 0.5s ease-in-out;
+    -webkit-transition: 1.5s ease-in-out;
+}
+
+.txt-cora {margin-top:100px;
+  text-align:left;
+    font-weight: 400;
+    color: #fff;
+  padding:20px;
+  text-shadow: 3px 1px 0 #5d6f80;
+    font-size: 70px;
+    transition: 2s ease-in-out;
+    font-family: Alexander Lettering;
+    transition: 1s ease-in-out;
+    -webkit-transition:1s ease-in-out;
+}
+
+#f-coraline:hover .txt-cora {
+  text-shadow: 3px 1px 0 #5d6f80;
+  color:#fff;
+  margin-top:30px;
+  font-size: 100px;
+  transition: 1.5s ease-in-out;
+    -webkit-transition:1.5s ease-in-out;
+}
+
+
+.txt-cora1 {  transition:1.5s ease-in-out;
+    -webkit-transition:1.5s ease-in-out;
+    font-weight: 400;
+  background:#0f0f0fa3;
+    color: #fff;
+  width:280px;
+  height:200px;
+  margin-top:0px;
+    font-size:8px;
+  line-height:10px;
+  text-transform:uppercase;
+  letter-spacing:2.5px;
+ padding:20px;
+    text-align: center;
+    transition: 2s ease-in-out;
+    font-family:calibri;
+ border-top:1px solid #5d6f80;
+}
+
+#f-coraline:hover .txt-cora1 {
+
+   background:#7a8fa3c7;
+margin-top:-60px;
+  transition:2s ease-in-out;
+    -webkit-transition:2s ease-in-out;
+}
+
+@font-face { font-family: 'Alexander Lettering'; src: url('https://Koa-la.github.io/firmas/Alexander%20Lettering.ttf'); }
