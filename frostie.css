@@ -1,0 +1,57 @@
+@font-face { font-family: 'BeliyaSignature'; src: url('https://Koa-la.github.io/firmas/BeliyaSignature.ttf'); }
+#p-frost {margin-top:10px!important;
+  width:269px;
+  height:200px;
+  background-image:url(https://i.imgur.com/jN9ZR4f.png);
+  margin:auto;
+   transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  border:1px solid #111;
+  position: relative;
+  overflow: hidden;
+  outline:1px solid #ADC0CB;
+   outline-offset:3px;
+}
+#p-frost:hover{
+  outline:1px solid #B8CBAD;
+  outline-offset:6px;
+     transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+}
+
+.h-frost {
+   transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  background:#ADC0CB;
+  width:269px;
+  height:200px;
+  margin-top:-220px;
+}
+
+#p-frost:hover .h-frost {
+   transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out; 
+    margin-top:0px;
+  background: #b3bac1bf;
+}
+
+.t-frost {text-align:left;
+  padding:10px;
+  font-family:BeliyaSignature;
+  text-shadow: 2px 0px 0px #ADC0CB;
+  font-size:40px;
+  line-height:38px;
+  margin-top:165px;
+color:#fff;}
+.s-frost {
+  font-family:calibri;
+  text-align:justify;
+  font-size:8px;
+  letter-spacing:1px;
+  margin:auto;
+text-transform:uppercase;
+  color:#fff;
+  line-height:12px;
+  padding:40px;
+  width:150px;
+}
