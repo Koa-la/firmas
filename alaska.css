@@ -1,0 +1,98 @@
+#prudence{
+  width:250px;
+  height:210px;
+  margin: auto;
+  outline: 1px solid #9f827f;
+  outline-offset:4px;
+  border: 10px solid #111;
+  animation: prue2 8s linear infinite;
+  -webkit-animation: prue2 8s linear infinite;
+}
+.pru-img {
+    background-image: url(https://i.imgur.com/pnSd1z4.png);
+    background-position: top;
+    width: 250px;
+    height: 210px;
+    transition: 2s ease-in-out;
+    -webkit-transition: 2s ease-in-out;
+}
+#prudence:hover .pru-img {
+    background-image: url(https://i.imgur.com/6YY29NF.png);
+    background-position: bottom;
+}
+.b-j {
+    position: relative;
+    top: calc(100% - 65px);
+    width: 140px;
+    text-align: center;
+    height: 45px;
+    margin: auto;
+    padding: 5px;
+    color: #ccc;
+    line-height: 8px;
+    font-size: 8px;
+    outline: 1px solid transparent;
+    font-family: calibri;
+    letter-spacing: 1px;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+}
+#prudence:hover .b-j {
+    top: calc(50% - 25px);
+    outline: 1px solid #9f827f;
+    animation: prue2 8s 1s ease-in-out infinite;
+    -webkit-animation: prue2 8s 1s ease-in-out infinite
+}
+
+.b-j2 {
+    font-size: 60px;
+    letter-spacing: 0px;
+    font-family: BrightStar;
+    line-height: 10px;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;   
+}
+#prudence:hover .b-j2 {
+  color: #9f827f;
+  animation: prue1 8s 1s ease-in-out infinite;
+  -webkit-animation: prue1 8s 1s ease-in-out infinite;
+}
+.cn1 {
+  color: #e2e2e2;
+  margin-top:10px;
+  text-transform: uppercase;
+  line-height: 9px;
+}
+
+@font-face { font-family: 'BrightStar'; src: url('https://Koa-la.github.io/firmas/BrightStar.otf'); }
+
+
+@keyframes prue2 {
+   0% { outline-color: #9f827f; }
+  25% { outline-color: #9c9f7f; }
+  50% { outline-color: #7f9f84; }
+   75% { outline-color: #7f9b9f; }
+  100% { outline-color: #977f9f; }
+}
+@-webkit-keyframes prue2 {
+   0% { outline-color: #9f827f; }
+  25% { outline-color: #9c9f7f; }
+  50% { outline-color: #7f9f84; }
+   75% { outline-color: #7f9b9f; }
+  100% { outline-color: #977f9f; }
+}
+@keyframes prue1 {
+   0% { color:#9f827f; }
+  25% { color:#9c9f7f; }
+  50% { color:#7f9f84; }
+   75% { color:#7f9b9f; }
+  100% { color:#977f9f; }
+}
+@-webkit-keyframes prue1 {
+   0% { color:#9f827f; }
+  25% { color:#9c9f7f; }
+  50% { color:#7f9f84; }
+   75% { color:#7f9b9f; }
+  100% { color:#977f9f; }
+}
+
