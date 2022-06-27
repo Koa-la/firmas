@@ -1,0 +1,67 @@
+#f-jack {
+  width:269px;
+  height:200px;
+  margin:auto;
+  overflow: hidden;  
+  border-bottom:10px solid #181818;
+  border-top:10px solid #181818;
+}
+
+.img-jack {border-top:1px solid #181818;
+width:280px;
+height:200px;
+   transition: 0.5s ease-in-out;
+    -webkit-transition: 1.5s ease-in-out;
+}
+
+.txt-jack {margin-top: 80px;
+    text-align: left;
+    font-weight: 900;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    text-shadow: 3px 1px 0 #839969;
+    line-height: 29px;
+    font-size: 35px;
+    transition: 2s ease-in-out;
+    font-family: arial;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+}
+
+#f-jack:hover .txt-jack {
+  text-shadow: 3px 1px 0 #000;
+  color:#fff;
+  margin-top:-1px;
+  font-size: 30px;
+  transition: 1.5s ease-in-out;
+    -webkit-transition:1.5s ease-in-out;
+}
+
+
+.txt-jack1 {  transition:1.5s ease-in-out;
+    -webkit-transition:1.5s ease-in-out;
+    font-weight: 400;
+  background:#839969;
+    color: #fff;
+  width:240px;
+  height:200px;
+  margin-top:0px;
+    font-size:8px;
+  line-height:10px;
+  text-transform:uppercase;
+  letter-spacing:2.5px;
+ padding:20px;
+    text-align: center;
+    transition: 2s ease-in-out;
+    font-family:calibri;
+ border-top:1px solid #839969;
+}
+
+#f-jack:hover .txt-jack1 {
+ border-top:1px solid #000;
+   background:#000000d6;
+margin-top:0px;
+  transition:2s ease-in-out;
+    -webkit-transition:2s ease-in-out;
+}
