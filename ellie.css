@@ -1,0 +1,63 @@
+#ellie {
+  background-image:url(https://i.imgur.com/w9Sz9uA.png);
+  width:260px;
+  height:200px;
+  margin:auto;text-align:center;
+  outline:1px solid #A5CC8B;
+  outline-offset:1px;
+    border:10px solid #111;
+  
+   transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+#ellie:hover {
+    transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  outline:1px solid #A5CC8B;
+  outline-offset:-9px;
+}
+.el2{ transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  margin-top:-110px;
+  width:160px;
+  color:#fff;
+  padding:50px;
+  height:110px;
+  line-height:16px;
+  font-family:arial;
+  font-size: 15px;
+  text-transform:uppercase;
+    font-weight: 900;
+}
+
+#ellie:hover .el2 { 
+  margin-top:0px;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  color: #fff;
+  background:#a5cc8be0;
+   font-family:arial;
+  font-size: 15px;
+  text-transform:uppercase;
+    font-weight: 900;
+}
+.el1{
+  font-size: 26px;
+    color: #f1f1f1;
+    font-weight: 900;
+    float: auto;
+  font-style:italic;
+    text-shadow: 3px 0 0 #ABCD95;
+    padding: 20px;
+  line-height:1px;
+  margin-bottom:-5px;
+  font-family:arial;
+    margin-top: 30px;
+}
+
+.ellie-t{width:150px;margin:auto;
+  line-height:10px;font-size:8px;font-family:Calibri;color:#f1f1f1;text-align:center;letter-spacing:1px;text-transform:uppercase
+}
