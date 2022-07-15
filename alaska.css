@@ -9,7 +9,7 @@
   -webkit-animation: prue2 8s linear infinite;
 }
 .pru-img {
-    background-image: url(https://i.imgur.com/pnSd1z4.png);
+    background-image: url(https://i.imgur.com/a9LPbBE.png);
     background-position: top;
     width: 250px;
     height: 210px;
@@ -17,7 +17,7 @@
     -webkit-transition: 2s ease-in-out;
 }
 #prudence:hover .pru-img {
-    background-image: url(https://i.imgur.com/6YY29NF.png);
+    background-image: url(https://i.imgur.com/nfhXmbz.png);
     background-position: bottom;
 }
 .b-j {
