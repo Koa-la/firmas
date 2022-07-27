@@ -1,0 +1,88 @@
+#firmad{
+ background-image:url(https://i.imgur.com/9pN0YCT.png);
+  width:270px;
+  height:200px;
+  margin:auto;
+  transition: 0.5s ease-in-out;
+ -webkit-transition: 1.5s ease-in-out;
+   position: relative;
+  overflow: hidden;
+border:1px solid #111;
+  outline:1px solid #7a404d;
+   outline-offset:5px;
+}
+
+.textod { font-family: 'Yellowstone';
+  text-shadow: 2px -3px 2px #6D2434;
+  font-size:85px;
+  color:#ccc;
+  line-height:60px;
+  float:right;
+  margin-top:-300px;
+    transition: 0.5s ease-in-out;
+ -webkit-transition: 1.5s ease-in-out;
+  background:#6c323fe0;
+  padding:20px;
+  text-align:center;
+  width:230px;
+  height:70px;
+   border-bottom:1px solid #7a404d;
+}
+
+#firmad:hover .textod {background:#000000d1;
+   margin-top:0px;
+    transition: 0.5s ease-in-out;
+ -webkit-transition: 1.5s ease-in-out;
+}
+
+.texto1d { animation: dottie3 5s 3s ease-in-out infinite;
+    -webkit-animation: dottie3 5s 3s ease-in-out infinite;
+  width:210px;
+   border-top:1px solid #7a404d;
+  height:30px;
+  padding:30px;
+  line-height:9px;
+  font-size:8px;
+  text-transform:uppercase;
+  font-family:calibri;
+   color:#fff;
+  letter-spacing:1px;
+  text-align:justify;
+  background:#9b536394;
+  margin-top:400px;
+    transition: 0.5s ease-in-out;
+ -webkit-transition: 1.5s ease-in-out;
+}
+
+#firmad:hover .texto1d {opacity: 0.70;
+  margin-top:110px;
+    transition: 0.5s ease-in-out;
+ -webkit-transition: 1.5s ease-in-out;
+}
+
+@font-face { font-family: 'Yellowstone'; src: url('https://Koa-la.github.io/firmas/Yellowstone.ttf'); }
+
+@keyframes dottie3 {
+   0% { background: rgb(177,94,94);
+background: linear-gradient(138deg, rgba(177,94,94,1) 0%, rgba(116,41,57,1) 53%, rgba(131,90,90,1) 100%);}
+  25% {background: rgb(177,94,94);
+background: linear-gradient(191deg, rgba(177,94,94,1) 0%, rgba(116,41,57,1) 53%, rgba(131,90,90,1) 100%);}
+  50% {background: rgb(177,94,94);
+background: linear-gradient(261deg, rgba(177,94,94,1) 0%, rgba(116,41,57,1) 53%, rgba(131,90,90,1) 100%);}
+   75% {background: rgb(177,94,94);
+background: linear-gradient(311deg, rgba(177,94,94,1) 0%, rgba(116,41,57,1) 53%, rgba(131,90,90,1) 100%);}
+  100% {background: rgb(177,94,94);
+background: linear-gradient(35deg, rgba(177,94,94,1) 0%, rgba(116,41,57,1) 53%, rgba(131,90,90,1) 100%); }
+}
+@-webkit-keyframes dottie3 {
+  0% { background: rgb(177,94,94);
+background: linear-gradient(138deg, rgba(177,94,94,1) 0%, rgba(116,41,57,1) 53%, rgba(131,90,90,1) 100%);}
+  25% {background: rgb(177,94,94);
+background: linear-gradient(191deg, rgba(177,94,94,1) 0%, rgba(116,41,57,1) 53%, rgba(131,90,90,1) 100%);}
+  50% {background: rgb(177,94,94);
+background: linear-gradient(261deg, rgba(177,94,94,1) 0%, rgba(116,41,57,1) 53%, rgba(131,90,90,1) 100%);}
+   75% {background: rgb(177,94,94);
+background: linear-gradient(311deg, rgba(177,94,94,1) 0%, rgba(116,41,57,1) 53%, rgba(131,90,90,1) 100%);}
+  100% {background: rgb(177,94,94);
+background: linear-gradient(35deg, rgba(177,94,94,1) 0%, rgba(116,41,57,1) 53%, rgba(131,90,90,1) 100%); }
+}
