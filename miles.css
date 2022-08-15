@@ -1,0 +1,63 @@
+#quind {
+    background-image: url(https://i.imgur.com/1ojJkhT.png);
+    width: 280px;
+    height: 200px;
+    margin: auto;
+border: 10px solid #161616;
+    outline: 1px solid #542323;
+    outline-offset: -10px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+#quind:hover { transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+ outline-offset:1px;
+  background-image:url(https://i.imgur.com/iKSwh4R.png);
+}
+
+#quind:hover .miles-txt1{
+  margin-top:-200px;
+}
+
+.miles-txt1{text-shadow: 2px 0 0 #542323;
+ text-align: justify;
+    color: #ccc; 
+   padding:10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: arial;
+  font-weight:900;
+   margin-top:150px;  
+   transition: 1s ease-in-out;
+ -webkit-transition: 1s ease-in-out;
+}
+
+.miles-txt1:after{
+  text-shadow: 2px 0 0 #000;
+    content: attr(data-text);
+    position: absolute;
+  color:#542323;
+  font-style:italic;
+  font-weight:900;
+  margin-left:3px;
+
+}
+
+.miles-txt{width:200px;
+    text-align: justify;
+    color: #ccc;
+  padding:5px;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-family: calibri;
+    letter-spacing: 1px;
+    padding: 6px;
+  line-height:10px;
+  margin:auto;
+  margin-top:280px!important;
+   transition: 1s ease-in-out;
+ -webkit-transition: 1s ease-in-out;
+}
