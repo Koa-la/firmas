@@ -1,0 +1,111 @@
+
+#al-hell{
+  width:250px;
+  height:200px;
+  margin: auto;
+   position: relative;
+  overflow: hidden;
+  outline: 1px solid #9f827f;
+  outline-offset:4px;
+  border: 5px solid #111;
+  animation: prue2 8s linear infinite;
+  -webkit-animation: prue2 8s linear infinite;
+   transition: 0.5s ease-in-out;
+ -webkit-transition: 1.5s ease-in-out;
+}
+
+#al-hell:hover .al-img {
+   transition: 0.5s ease-in-out;
+ -webkit-transition: 1.5s ease-in-out;
+  animation: prue6 8s linear infinite;
+  -webkit-animation: prue6 8s linear infinite;}
+
+.al-img { 
+  transition: 0.5s ease-in-out;
+ -webkit-transition: 1.5s ease-in-out;
+    background-image: url(https://i.imgur.com/f9JmCop.png);
+    background-position: top;
+    width: 280px;
+    height: 200px;
+  border:1px solid #111;
+}
+
+.al-txt1{
+  font-size:30px;
+  text-transform:uppercase;
+  font-family:arial;
+  font-weight:900;
+  color:#ccc;
+   animation: prue4 8s linear infinite;
+  -webkit-animation: prue4 8s linear infinite;
+}
+
+.al-txt2{font-size:8px;
+  text-transform:uppercase;
+  font-family:calibri;
+  margin-top:10px;
+  line-height:11px;
+  letter-spacing:1px;
+  color:#ccc;
+  text-align:justify;
+}
+
+
+
+#al-hell:hover .al-tx { 
+  margin-top:40px;
+   transition: 0.5s ease-in-out;
+ -webkit-transition: 1.5s ease-in-out;}
+
+.al-tx{    width:140px;
+    margin-top:160px;
+    padding: 10px;
+    height: 160px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 1.5s ease-in-out;
+}
+
+
+@keyframes prue4 {
+   0% { text-shadow: 2px 0 0 #794542; }
+  25% { text-shadow: 2px 0 0 #796B42; }
+  50% { text-shadow: 2px 0 0 #447942; }
+   75% { text-shadow: 2px 0 0 #426F79; }
+  100% { text-shadow: 2px 0 0 #79426C; }
+}
+@-webkit-keyframes prue4 {
+   0% { text-shadow: 2px 0 0 #794542; }
+  25% { text-shadow: 2px 0 0 #796B42; }
+  50% { text-shadow: 2px 0 0 #447942; }
+   75% { text-shadow: 2px 0 0 #426F79; }
+  100% { text-shadow: 2px 0 0 #79426C; }
+}
+
+@keyframes prue2 {
+   0% { outline-color: #794542; }
+  25% { outline-color: #796B42; }
+  50% { outline-color: #447942; }
+   75% { outline-color: #426F79; }
+  100% { outline-color: #79426C; }
+}
+@-webkit-keyframes prue2 {
+   0% { outline-color: #794542; }
+  25% { outline-color: #796B42; }
+  50% { outline-color: #447942; }
+   75% { outline-color: #426F79; }
+  100% { outline-color: #79426C; }
+}
+@keyframes prue6 {
+   0% { background-image:url(https://i.imgur.com/pJdPWdI.png); }
+  25%{ background-image:url(https://i.imgur.com/f9JmCop.png); }
+  50% { background-image:url(https://i.imgur.com/iuM9lWj.png); }
+   75% { background-image:url(https://i.imgur.com/GPEQJU9.png); }
+  100% { background-image:url(https://i.imgur.com/iuM9lWj.png); }
+}
+@-webkit-keyframes prue6 {
+   0% { background-image:url(https://i.imgur.com/pJdPWdI.png); }
+  25%{ background-image:url(https://i.imgur.com/f9JmCop.png); }
+  50% { background-image:url(https://i.imgur.com/iuM9lWj.png); }
+   75% { background-image:url(https://i.imgur.com/GPEQJU9.png); }
+  100% { background-image:url(https://i.imgur.com/iuM9lWj.png); }
+}
