@@ -96,16 +96,16 @@
   100% { outline-color: #79426C; }
 }
 @keyframes prue6 {
-   0% { background-image:url(https://i.imgur.com/pJdPWdI.png); }
+ 0% { background-image:url(https://i.imgur.com/pJdPWdI.png); }
   25%{ background-image:url(https://i.imgur.com/f9JmCop.png); }
   50% { background-image:url(https://i.imgur.com/iuM9lWj.png); }
    75% { background-image:url(https://i.imgur.com/GPEQJU9.png); }
-  100% { background-image:url(https://i.imgur.com/iuM9lWj.png); }
+  100% { background-image:url(https://i.imgur.com/pJdPWdI.png); }
 }
 @-webkit-keyframes prue6 {
-   0% { background-image:url(https://i.imgur.com/pJdPWdI.png); }
+0% { background-image:url(https://i.imgur.com/pJdPWdI.png); }
   25%{ background-image:url(https://i.imgur.com/f9JmCop.png); }
   50% { background-image:url(https://i.imgur.com/iuM9lWj.png); }
    75% { background-image:url(https://i.imgur.com/GPEQJU9.png); }
-  100% { background-image:url(https://i.imgur.com/iuM9lWj.png); }
+  100% { background-image:url(https://i.imgur.com/pJdPWdI.png); }
 }
