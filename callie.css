@@ -1,0 +1,41 @@
+#callicita{margin-top:5px!important;
+  margin-bottom:5px!important;
+  width:280px;
+  height:200px;
+    overflow: hidden;
+  margin:auto;
+  border:1px dotted #111;
+  outline-offset:4px;
+  outline:1px solid #c9c37d;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+#callicita:hover{outline:1px solid #978f67;
+  outline-offset:1px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+.callicita-txt{font-size:60px;
+color:#ccc;
+  font-style:italic;
+  margin-top:120px;
+font-family: 'Yellowstone';  
+      text-shadow: 2px 1px 0 #9d996d;
+  line-height:40px;
+  padding:15px;
+  text-align:center;
+}
+
+.callicita-txt1{
+  font-size:10px;
+  text-transform:uppercase;
+  color:#ccc;
+  font-family:calibri;
+  letter-spacing:1px;
+  text-shadow: 1px 1px 0 #9d996d;
+  line-height:10px;
+}
+
+@font-face { font-family: 'Yellowstone'; src: url('https://Koa-la.github.io/firmas/Yellowstone.ttf'); }
