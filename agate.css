@@ -1,9 +1,10 @@
 #mini-t {
   width: 250px;
   height: 200px;
+  margin-top:5px!important;
   border: 10px solid #020102;
   outline: 1px solid #6d9572c7;
-  outline-offset:5px;
+  outline-offset:1px;
   margin: auto;
   position: relative;
   overflow: hidden;
