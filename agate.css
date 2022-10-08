@@ -1,9 +1,9 @@
 #mini-t {
   width: 250px;
   height: 200px;
-  border: 10px solid #0f0f0f;
-    outline: 1px solid #837a41;
-    outline-offset: -1px;
+  border: 10px solid #020102;
+  outline: 1px solid #6d9572c7;
+  outline-offset:5px;
   margin: auto;
   position: relative;
   overflow: hidden;
@@ -16,7 +16,7 @@
 
 .m-txt1 {
  font-weight:900;
-  text-shadow: 2px 0px 0px #b9b15a;
+  text-shadow: 2px 0px 0px #6d9572c7;
   font-size:25px;
   line-height:18px;
    transition: 1s ease-in-out;
@@ -37,7 +37,7 @@
   line-height:20px;
   text-align:center;
   width:240px;
-  background: #baad5b;
+  background:#95876dc7; 
   padding:5px;
   height:20px;
   margin-top:30px;
@@ -45,7 +45,7 @@
   -webkit-transition: 2s ease-in-out;
 }
 
-#mini-t:hover .m-txt2 { background: #c9bc6ea8;
+#mini-t:hover .m-txt2 { background:#6d9572c7; 
 margin-top:0px; 
    transition: 1.5s ease-in-out;
   -webkit-transition: 1.5s ease-in-out;
