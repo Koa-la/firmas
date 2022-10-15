@@ -1,0 +1,80 @@
+#f-zev{
+ background-image:url(https://i.imgur.com/1rfZw3e.png);
+  width:270px;
+  height:200px;
+  margin:auto;
+  transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+   position: relative;
+  overflow: hidden;
+border:1px solid #111;
+  outline:1px solid #4C1A1A;
+   outline-offset:5px;
+  margin-top:5px!important;
+}
+
+#f-zev:hover{
+    transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+  -webkit-filter: grayscale(1); 
+}
+
+#f-zev:hover .z-txt {
+   transition: 1s ease-in-out;
+ -webkit-transition: 1s ease-in-out;
+  margin-left:-200px;
+}
+
+#f-zev:hover .z-txt:after {
+  margin-left:450px;
+    transition: 1s ease-in-out;
+ -webkit-transition: 1s ease-in-out;
+}
+
+#f-zev:hover .z-txt1{
+  margin-top:-150px;
+  
+}
+
+
+.z-txt{    transition: 1s ease-in-out;
+ -webkit-transition: 1s ease-in-out;
+  font-family: 'Arsenica';
+  color:#ccc;
+  text-transform:uppercase;
+  font-size:44px;
+  width:90px;
+  text-align:center;
+  font-weight:900;
+  line-height:36px;
+  padding:40px;
+  margin-top:90px;
+  text-shadow: 2px 0 0 #000;
+}
+
+.z-txt:after{    transition: 1s ease-in-out;
+ -webkit-transition: 1s ease-in-out;
+  text-shadow: 2px 0 0 #000;
+    content: attr(data-text);
+    position: absolute;
+  color:#4C1A1A;
+  font-style:italic;
+
+}
+
+.z-txt1{     transition: 1s ease-in-out;
+ -webkit-transition: 1s ease-in-out;
+  margin-top:100px;
+  margin-left:40px;
+  font-family:arial;
+  font-size:7px;
+  color:#ccc;
+  line-height:10px;
+  text-transform:uppercase;
+  text-align:justify;
+  padding:10px;
+  letter-spacing:1px;
+  width:100px;
+}
+
+@font-face { font-family: 'Arsenica'; src: url('https://Koa-la.github.io/firmas/Arsenica.ttf'); }
