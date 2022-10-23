@@ -1,0 +1,53 @@
+#mini-ta {
+  width: 250px;
+  height: 200px;
+  border: 5px solid #020102;
+  outline: 1px solid #C39976;
+  outline-offset:2px;
+  margin-top:6px!important;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+   text-transform:uppercase;
+  font-family:arial;
+  color:#f1f1f1;
+}
+
+.m-txt1a {
+ font-weight:900;
+  text-shadow: 2px 0px 0px #C39976;
+  font-size:25px;
+  line-height:18px;
+   transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  margin-top:160px;
+  margin-left:20px;
+  margin-bottom:5px;
+}
+
+#mini-ta:hover .m-txt1a {
+  margin-top:148px;
+   transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+}
+
+.m-txt2a {  font-size:7px;
+  letter-spacing:1.5px;
+  line-height:20px;
+  text-align:center;
+  width:240px;
+  background:#C39976; 
+  padding:5px;
+  height:20px;
+  margin-top:30px;
+   transition:2s ease-in-out;
+  -webkit-transition: 2s ease-in-out;
+}
+
+#mini-ta:hover .m-txt2a { background:#d1b49cc4; 
+margin-top:0px; 
+   transition: 1.5s ease-in-out;
+  -webkit-transition: 1.5s ease-in-out;
+}
