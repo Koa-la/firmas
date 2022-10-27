@@ -1,0 +1,70 @@
+#k-bonnie {
+  width:280px;
+  height:200px;
+  margin:auto;text-align:center;
+  outline:1px solid #536656;
+  outline-offset:1px;
+    border:6px solid #111;
+   transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  margin-top:5px!important;
+  margin-bottom:4px!important;
+}
+
+#k-bonnie:hover .tete1 {
+     transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+   margin-top:80px;
+}
+
+.tete1{   transition: 1.5s ease-in-out;
+  -webkit-transition: 1.5s ease-in-out;
+  font-size: 40px;
+    color: #f1f1f1;
+ font-family: 'La Lemonti';
+    float: right;
+    text-shadow:2px 0 0 #536656;
+    padding:20px;
+  padding-bottom:15px;
+  line-height:1px;
+    margin-top:120px;
+}
+
+.tete-t{width:120px;float:right;
+  padding:20px;
+  padding-top:1px;
+  line-height:7px;font-size:8px;font-family:Calibri;color:#f1f1f1;text-align:justify;letter-spacing:1px;text-transform:uppercase
+}
+
+#k-bonnie:hover .kenzie-texto-c{
+    transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  width:260px;
+  margin-top:155px;
+  height:25px;
+}
+
+.kenzie-texto-c{  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  width:260px;
+  margin-top:200px;
+  height:25px;
+  color:#ccc;
+ background:#536656b3;
+  padding:10px;
+  font-family:arial;
+  text-align:justify;
+  letter-spacing:1px;
+  line-height:9px;
+  font-size:6px;
+  text-transform:uppercase;
+}
+
+@font-face { font-family: 'La Lemonti'; src: url('https://Koa-la.github.io/firmas/La%20Lemonti.otf'); }
+
+.ken strong{color: #536656;}
+.ken .datos i{color: #536656;}
+.t-kenzie{margin-top:20px!important;padding:10px;font-family: 'La Lemonti';text-transform:uppercase;font-size:30px;text-shadow:2px 0px 0 #536656;text-align:Center;color:#c3c3c3;}
+.ken1{font-weight:700;text-align:center;font-size:10.5px;line-height:19px}ry1{width:10px;display:block;height:1px;margin:auto;padding:10px;border-top:5px solid #536656}
