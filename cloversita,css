@@ -1,0 +1,46 @@
+
+#cloversita{margin-top:10px!important;
+  margin-bottom:5px!important;
+  width:280px;
+  height:200px;
+    overflow: hidden;
+  margin:auto;
+  border-top:10px solid #1e1d1d;
+  border-bottom:10px solid #1e1d1d;
+  outline-offset:6px;
+  outline:1px solid #614b4b;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+  background-image:url(https://i.imgur.com/d1P5yAq.png);
+}
+
+#cloversita:hover{
+  outline:1px dotted #d7a2ac;
+  outline-offset:0px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+.cloversita-txt{font-size: 20px;
+    color: #9d6969;
+    width: 120px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 140px;
+    font-family: arial;
+    text-transform: uppercase;
+    text-shadow: 2px 0px 0 #191a1ad9;
+    line-height: 20px;
+    padding: 15px;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+.cloversita-txt1{
+  font-size:8px;
+  width:120px;
+  font-weigh:400;
+  color:#ccc;
+  font-family:arial;
+  letter-spacing:1px;
+  text-shadow: 1px 0px 1px #000;
+  line-height:9px;
+}
