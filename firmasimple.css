@@ -1,0 +1,69 @@
+#mago { width:302px;
+  height:202px;
+margin:auto;
+  border:5px solid #060606;
+    outline-offset:1px;
+  transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+   position: relative;
+  overflow: hidden;
+}
+#mago:hover{
+    transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+ outline-offset:5px; 
+  border:5px solid #000;
+}
+
+.tenebroso{
+    width:300px;
+  height:200px;
+    transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+  border:1px solid #000;
+}
+
+
+#mago:hover .tenebroso{
+  -webkit-filter: grayscale(1);   
+    transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
+}
+
+#mago:hover .z-txt1{
+  margin-top:60px;
+  
+}
+.z-txt1{     transition: 1s ease-in-out;
+ -webkit-transition: 1s ease-in-out;
+  margin-top:200px;
+  margin-left:150px;
+  font-family:arial;
+  font-size:7px;
+  color:#ccc;
+  line-height:10px;
+  text-transform:uppercase;
+  text-align:justify;
+  padding:10px;
+  letter-spacing:1px;
+  width:100px;
+}
+#mago:hover .texto-c1{
+  margin-top:-60px;
+  transition: 1s ease-in-out;
+ -webkit-transition: 1s ease-in-out;
+}
+.texto-c1{text-shadow: 2px 1px 0 #000;
+  font-family:arial;
+  line-height:18px;
+  width:82px;
+  letter-spacing:16px;
+  font-size:30px;
+  text-align: center;
+  font-weight:900;
+  text-transform:uppercase;
+  padding:20px;
+  margin-top:140px;
+transition: 1s ease-in-out;
+ -webkit-transition: 1s ease-in-out;
+}
