@@ -1,0 +1,105 @@
+
+#maze {margin-top:10px!important;
+  width: 300px;
+  height: 190px;
+  border: 2px solid #020102;
+  background: url(https://i.imgur.com/W8IcVrN.png);
+  outline: 1px solid #3d2d31;
+  outline-offset:7px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  transition: 1.5s ease-in-out;
+  -webkit-transition: 1.5s ease-in-out;
+}
+
+.maze-hover {margin-top:18px;
+  width: 300px;
+  height: 210px;
+ background: #382b30a3;
+    border-top: 5px solid #3d2d31;
+  transition: 1.5s ease-in-out;
+  -webkit-transition: 1.5s ease-in-out;
+}
+
+
+#maze:hover .maze-hover{
+  margin-top:10px;
+    width: 300px;
+    height: 190px;
+    background: #040404d1;
+    border-top: 5px solid #000;
+    transition: 1.5s ease-in-out;
+    -webkit-transition: 1.5s ease-in-out;
+}
+
+.maze-sub {
+  line-height: 11px;
+    margin-top: 7px;
+  padding-left:20px;
+  width: 150px;
+ color:#ccc;
+  font-size:7px;
+  text-transform:uppercase;
+  font-family:calibri;
+  letter-spacing:1px;
+  text-align:justify;
+}
+
+#maze:hover .maze-txt0{
+      transition: 1.5s ease-in-out;
+    -webkit-transition: 1.5s ease-in-out;
+  margin-top:-70px;
+}
+
+.maze-txt0{ 
+  margin-top:110px;
+  font-size:25px;
+  margin-left:30px;
+  font-family:The Mondela Catalisa Serif;
+  font-weight:700;
+  color:#ccc;
+      transition: 1.5s ease-in-out;
+    -webkit-transition: 1.5s ease-in-out;
+}
+.maze-txt1 {
+  position:absolute;
+  font-size:30px;
+  margin-left:-30px;
+  margin-top:40px;
+  font-family:The Mondela Catalisa Serif;
+  text-align:center;
+  font-weight:900;
+    text-shadow: 1px 2px #000;
+    color: #ccc;
+    transition-duration: 0.5s;
+
+}
+
+#luluicon{margin-top:30px;
+  margin-height:100px;
+  color:#3d2d31;
+  text-align:center;
+  font-size:40px; 
+  transform: rotate(-45deg);
+}
+
+.borde-maze{border:1px solid #3d2d31;
+  width:40px;
+  height:40px;
+  position:absolute;
+  margin-top:30px;
+  margin-left:50px;
+  padding:20px;
+  margin:auto;
+  transform: rotate(45deg);
+}
+
+
+.cuerpito-maze{
+  margin-top:50px;
+  margin-left:100px;
+}
+
+@font-face {font-family: "The Mondela Catalisa Serif"; 
+src: url('https://Koa-la.github.io/firmas//The%20Mondela%20Catalisa%20Serif.ttf');}
