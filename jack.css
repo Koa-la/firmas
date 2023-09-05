@@ -1,67 +1,78 @@
-#f-jack {
-  width:269px;
+
+#jack-firma {
+  width:270px;
   height:200px;
   margin:auto;
-  overflow: hidden;  
-  border-bottom:10px solid #181818;
-  border-top:10px solid #181818;
+  display:flex;
+  border:10px solid #111;
+  outline:1px solid #536077;
+  outline-offset:0px;
+position: relative;
+  overflow: hidden;
+ transition: 0.5s ease-in-out;
+ -webkit-transition: 0.5s ease-in-out;
 }
-
-.img-jack {border-top:1px solid #181818;
-width:280px;
-height:200px;
-   transition: 0.5s ease-in-out;
-    -webkit-transition: 1.5s ease-in-out;
-}
-
-.txt-jack {margin-top: 80px;
-    text-align: left;
-    font-weight: 900;
-    color: #fff;
-    padding: 20px;
-    text-transform: uppercase;
-    text-shadow: 3px 1px 0 #50698f;
-    line-height: 29px;
-    font-size: 35px;
-    transition: 2s ease-in-out;
-    font-family: arial;
-    transition: 1s ease-in-out;
-    -webkit-transition: 1s ease-in-out;
-}
-
-#f-jack:hover .txt-jack {
-  text-shadow: 3px 1px 0 #000;
-  color:#fff;
-  margin-top:-1px;
-  font-size: 30px;
-  transition: 1.5s ease-in-out;
-    -webkit-transition:1.5s ease-in-out;
-}
-
-
-.txt-jack1 {  transition:1.5s ease-in-out;
-    -webkit-transition:1.5s ease-in-out;
-    font-weight: 400;
-  background:#50698f;
-    color: #fff;
-  width:240px;
-  height:200px;
-  margin-top:0px;
-    font-size:8px;
-  line-height:10px;
+.j-texto-c1{text-shadow: 2px 1px 0 #536077;
+  font-family:arial;
+  color:#ccc;
+  line-height:18px;
+  width:82px;
+  font-size:20px;
+  text-align: left;
+  font-weight:900;
   text-transform:uppercase;
-  letter-spacing:2.5px;
- padding:20px;
-    text-align: center;
-    transition: 2s ease-in-out;
-    font-family:calibri;
- border-top:1px solid #839969;
+  padding:20px;
+  margin-top:110px;
+   transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
 }
 
-#f-jack:hover .txt-jack1 {
- border-top:1px solid #000;
-   background:#000000d6;
-margin-top:0px;
-  transition:2s ease-in-out;
-    -webkit-transition:2s ease-in-out;
+#jack-firma:hover .j-texto-c1{
+font-size:28px;text-shadow: 2px 1px 0 #000;
+  width:120px;
+  text-align: left;
+  letter-spacing:-1px;
+  padding:15px;
+  line-height:23px;
+  margin-top:100px;
+  transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+
+.j-texto-c{
+  width:150px;
+  height:200px;
+  padding:25px;
+  line-height:11px;
+  text-align:justify;
+  letter-spacing:1px;
+  background:#000;
+  font-size:7.5px;
+  text-transform:uppercase;
+  font-family:calibri;
+  color:#ccc;
+   margin-left:-200px;
+  transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+#jack-firma:hover .j-texto-c{
+  margin-left:0px;
+  background:#536077;
+  transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+.j-imagen-f{
+   width:300px;
+  height:200px;
+  transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+#jack-firma:hover .j-imagen-f{
+  transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+  filter: grayscale(100%);
 }
